@@ -1,6 +1,6 @@
 {
   "name": "angular-c4s-leaflet-directive",
-  "description": "AngularJS directive to embed an interact with maps managed by Leaflet library",
+  "description": "Code4Sac fork of the AngularJS directive to embed an interact with maps managed by Leaflet library. This fork will only be maintained until any changes herein are forked in the upstream repo: https://github.com/tombatossals/angular-leaflet-directive.",
   "keywords": [
     "angularjs",
     "javascript",
