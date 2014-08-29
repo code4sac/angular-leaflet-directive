@@ -752,8 +752,8 @@
                       marker.bindPopup(markerData.message, markerData.popupOptions);
                     }
                     // Add the marker to a cluster group if needed
-                    if (isDefined(markerData.group.name)) {
-                      var groupOptions = isDefined(markerData.group.options) ? markerData.group.options : {};
+                    if (isDefined(markerData.group)) {
+                      var groupOptions = isDefined(markerData.groupOptions) ? markerData.groupOptions : {};
                       addMarkerToGroup(marker, markerData.group.name, groupOptions, map);
                     }
                     // Show label if defined

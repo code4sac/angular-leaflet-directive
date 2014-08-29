@@ -1,5 +1,5 @@
 {
-  "name": "angular-leaflet-directive",
+  "name": "angular-c4s-leaflet-directive",
   "description": "AngularJS directive to embed an interact with maps managed by Leaflet library",
   "keywords": [
     "angularjs",
