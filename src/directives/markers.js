@@ -66,8 +66,9 @@ angular.module("leaflet-directive").directive('markers', function ($log, $rootSc
                                 }
 
                                 // Add the marker to a cluster group if needed
-                                if (isDefined(markerData.group)) {
-                                    addMarkerToGroup(marker, markerData.group, map);
+                                if (isDefined(markerData.group.name)) {
+                                    var groupOptions = isDefined(markerData.group.options) ? markerData.group.options : {};
+                                    addMarkerToGroup(marker, markerData.group.name, groupOptions, map);
                                 }
 
                                 // Show label if defined
